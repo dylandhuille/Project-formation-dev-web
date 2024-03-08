@@ -1,0 +1,75 @@
+to do list du 30/09/2021 au 31/09/2021
+- Mise en place du vHost
+
+- Passage en architecture MVC de votre projet personnel. Tous les fichiers HTML doivent désormais être en PHP.
+
+- Mise en place la partie back-end de votre projet de TP (Nettoyage, vérification et validation des différents formulaires)
+
+**Vous devez penser à tout ce qu'un utilisateur, et un administrateur de votre site peut gérer (Valider des commentaires, ajouter des actus, des produits, les modifier...)**
+
+--------------------------------------------------------------------
+formulaire de dépôt d'annonce / formulaire de bien:
+
+adSubmissionForm-controller.php 
+adSubmissionForm.php
+--------------------------------------------------------------------
+detail d'une offre:
+
+detailOffer-controller.php
+detailOffer.php
+--------------------------------------------------------------------
+formulaire de renseignement / profile:
+
+informationForm-controller.php
+informationForm.php
+--------------------------------------------------------------------
+page d'accueil:
+
+index-controller.php
+index.php
+--------------------------------------------------------------------
+formulaire d'inscription:
+
+registrationForm-controller.php
+registrationForm.php
+--------------------------------------------------------------------
+formulaire mot de passe perdu:
+
+forgotFassword-controller.php
+forgotFassword.php
+--------------------------------------------------------------------
+recherches des offres:
+
+research-controller.php
+research.php
+--------------------------------------------------------------------
+formulaire de connexion:
+
+connexion-controller.php
+connexion.php
+--------------------------------------------------------------------
+utils:
+
+pattern.php
+contient tout le paterne HTML
+**********************************************************************
+to do list:
+    reflechir a un pattern pour le pseudo
+    reflechir a un pattern pour le mot de passe
+**********************************************************************
+regex.php
+contient toutes les regex
+**********************************************************************
+to do list:
+    reflechir a un regex pour le pseudo
+    reflechir a un regex pour le mot de passe
+**********************************************************************
+
+comment valider une image en back ?
+valider password
+pour
+registrationForm-controller.php
+pour 
+profil-controller.php
+et 
+registrationForm-controller.php
